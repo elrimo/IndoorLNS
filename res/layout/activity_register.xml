@@ -1,0 +1,119 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.elrimo.indoorlns.LoginActivity" >
+
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/login_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_progress_signing_in"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+<ScrollView  android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+         style="@style/LoginFormContainer"
+            android:orientation="vertical"  >
+
+         <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:shadowColor="#06546b"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="0.6"
+                android:text="@string/welcome_indoorlns"
+                android:textColor="#097ea1"
+                android:textSize="30sp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold|italic"/>
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/user_email"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus android:layout_width="wrap_content" />
+        </EditText>
+
+        <EditText
+            android:id="@+id/userNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/user_name"
+            android:inputType="text" />
+        
+         <EditText
+            android:id="@+id/userPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/user_prenom"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/user_password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/userPasswordConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/user_password_confirmation"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/registerDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/register_disclaimer"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            style="@style/login_button"
+            android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+            android:onClick="registerNewAccount"
+            android:text="@string/register" />
+    </LinearLayout>
+
+</ScrollView>
+
+</merge>

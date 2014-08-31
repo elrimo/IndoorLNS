@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">IndoorLNS</string>
+    <string name="title_home">Home</string>
+    <string name="title_indoor_nav">Indoor Navigation</string>
+    <string name="title_my_profile">My Profile</string>
+    <string name="title_signout">sign out</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="loading">Loading…</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_signOut">Sign out</string>
+    <string name="welcome_indoorlns">Welcome to IndoorLNS</string>
+    <string name="fingerprint_msg">Would you like to calculate the fingerprint of this position (%1$s,%2$s)?</string>
+    <string name="fingerprint_title">Fingerprinting</string>
+    <string name="calculate">Calculate</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_place">search place</string>
+    <string name="search">search</string>
+    <string name="title_activity_register">Register</string>
+    <string name="save">Save</string>
+    <string name="user_name">First Name</string>
+    <string name="user_prenom">First NAme</string>
+    <string name="user_email">Email</string>
+    <string name="user_password">Password</string>
+    <string name="user_password_confirmation">Confirm Password</string>
+    <string name="register_disclaimer">Your email address will always remain private. By clicking Register you are indicating that you have read and agree to the Terms of Service.</string>
+    <string name="register">Register</string>
+    <string name="title_activity_admin_map">AdminMapActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fingerprint">FingerprintActivity</string>
+    <string name="title_activity_wifi_receiver">WifiReceiver</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+</resources>

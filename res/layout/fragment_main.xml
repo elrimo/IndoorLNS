@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.elrimo.indoorlns.MainActivity$PlaceholderFragment" >
+
+
+        
+        <!-- 
+            initExtent = "-100.0 -100.0 5000.0 2500.0"
+            mapoptions.center="2137.4677915297975, 1002.7668277307675"-->
+        <com.esri.android.map.MapView
+            android:id="@+id/section_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+		</com.esri.android.map.MapView>
+
+</RelativeLayout>

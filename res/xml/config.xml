@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        id        = "com.github.elrimo.indoorlns"
+        version   = "1.0.0">
+    <name>IndoorLNS</name>
+
+    <description>
+        Indoor Localisation and Navigation System
+    </description>
+
+    <author href="http://github.com/elrimo" email="elairerim@gmail.com">
+        IODev Team
+    </author>
+
+    <!--  <access origin="http://127.0.0.1*"/> --> <!-- allow local pages -->
+    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
+    <access origin="http://192.168.1.3:80*" />
+    <access origin="http://ol3js.org/"/>
+    <access origin=".*" />
+
+    <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
+    <content src="index.html" />
+
+    <preference name="loglevel" value="VERBOSE" />
+    
+    <preference name="loadUrlTimeoutValue" value="60000" />
+    
+    <!--
+      <preference name="splashscreen" value="resourceName" />
+      <preference name="backgroundColor" value="0xFFF" />
+      <preference name="InAppBrowserStorageEnabled" value="true" />
+      <preference name="disallowOverscroll" value="true" />
+    -->
+    <!-- This is required for native Android hooks -->
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+</widget>
